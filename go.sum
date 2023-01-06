@@ -1,0 +1,4 @@
+github.com/larksuite/oapi-sdk-go/v3 v3.0.14 h1:WxRAudM5eTTBZgmXs0BRp3Pq8/sxsc0lcfIl43veDJI=
+github.com/larksuite/oapi-sdk-go/v3 v3.0.14/go.mod h1:FKi8vBgtkBt/xNRQUwdWvoDmsPh7/wP75Sn5IBIBQLk=
+gopkg.in/Knetic/govaluate.v2 v2.3.0 h1:naJVc9CZlWA8rC8f5mvECJD7jreTrn7FvGXjBthkHJQ=
+gopkg.in/Knetic/govaluate.v2 v2.3.0/go.mod h1:NW0gr10J8s7aNghEg6uhdxiEaBvc0+8VgJjVViHUKp4=

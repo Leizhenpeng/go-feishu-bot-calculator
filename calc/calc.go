@@ -1,4 +1,4 @@
-package main
+package calc
 
 import (
 	"fmt"
@@ -14,7 +14,7 @@ func CalcStr(str string) (float64, error) {
 	return out.(float64), nil
 }
 
-func formatMathOut(out float64) string {
+func FormatMathOut(out float64) string {
 	//if is int
 	if out == float64(int(out)) {
 		return fmt.Sprintf("%d", int(out))

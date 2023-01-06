@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"leizhenpeng/go-feishu-bot-calculator/calc"
 	"net/http"
 	"os"
 	"regexp"
@@ -81,11 +82,11 @@ func main() {
 			fmt.Println(larkcore.Prettify(event))
 			content := event.Event.Message.Content
 			contentStr := parseContent(*content)
-			out, err := CalcStr(contentStr)
+			out, err := calc.CalcStr(contentStr)
 			if err != nil {
 				fmt.Println(err)
 			}
-			sendMsg(formatMathOut(out), event.Event.Message.ChatId)
+			sendMsg(calc.FormatMathOut(out), event.Event.Message.ChatId)
 			return nil
 		})
 

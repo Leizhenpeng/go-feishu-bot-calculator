@@ -16,9 +16,11 @@
 
 ### 部署
 ```bash
- nohup cpolar http 8080 -log=stdout &
+go run main.go
+
+nohup cpolar http 8080 -log=stdout &
 ```
-### 查看状态
+### 查看服务器状态
 https://dashboard.cpolar.com/status
 
 ### 查询并kill进程

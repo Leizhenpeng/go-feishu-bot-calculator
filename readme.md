@@ -13,8 +13,12 @@
 
 - [cpolar](https://dashboard.cpolar.com/)
 - [natapp](https://natapp.cn/)
+### 测试部署
+```bash 
+cpolar http 8080
+```
 
-### 部署
+### 后台部署
 ```bash
 go run main.go
 
@@ -31,12 +35,18 @@ kill -9 PID
 ``` 
 
 
+
 ## 关于飞书机器人
  
 [事件订阅的文档](https://open.feishu.cn/document/ukTMukTMukTM/uUTNz4SN1MjL1UzM?lang=zh-CN#2eb3504a)
+
 [事件订阅的SDK](https://github.com/larksuite/oapi-sdk-go#%E5%A4%84%E7%90%86%E6%B6%88%E6%81%AF%E4%BA%8B%E4%BB%B6%E5%9B%9E%E8%B0%83)
+
 [所有SDK](https://github.com/larksuite/oapi-sdk-go)
+
 [消息类型](https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/im-v1/message/create_json)
+
 [发送消息文档](https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/im-v1/message/create)
+
 应用审核: https://fork-way.feishu.cn/admin/appCenter/audit (需要飞书企业版)
 

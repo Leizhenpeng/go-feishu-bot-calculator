@@ -1,5 +1,5 @@
 # go-feishu-bot-calculator
-> 给飞书机器人添加计算器功能
+> 写一个飞书机器人成为你的计算器~
 
 ![img.png](doc/img.png)
 

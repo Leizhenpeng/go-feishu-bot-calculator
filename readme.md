@@ -37,6 +37,7 @@ kill -9 PID
 
 
 ## 关于飞书机器人
+[飞书开发者平台](https://open.feishu.cn/app?lang=zh-CN)
  
 [事件订阅的文档](https://open.feishu.cn/document/ukTMukTMukTM/uUTNz4SN1MjL1UzM?lang=zh-CN#2eb3504a)
 

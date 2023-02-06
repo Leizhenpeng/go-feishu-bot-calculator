@@ -1,7 +1,13 @@
-# go-feishu-bot-calculator
-> 写一个飞书机器人成为你的计算器~
 
-![img.png](doc/img.png)
+
+<p align='center'>
+  <img src='./doc/img.png' alt='' width='1000'/>
+</p>
+
+<p align='center'>
+ feishu-bot-calculator with<b>go</b><sup><em>(gin)</em></sup><br>
+</p>
+
 
 ## 关于反向代理
 

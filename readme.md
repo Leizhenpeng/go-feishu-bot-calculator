@@ -5,7 +5,7 @@
 </p>
 
 <p align='center'>
- feishu-bot-calculator with<b>go</b><sup><em>(gin)</em></sup><br>
+ A feishu-bot calculator powered by <b>go</b><sup><em>(gin)</em></sup><br>
 </p>
 
 
